@@ -14,8 +14,8 @@ I spent a lot of effort learning how to communicate with ChatGPT. Initially, due
 This is not a very powerful website, but I think that when humans and AI look back on the development of AI and the interaction between AI and humans in several or even tens of years, this website and its code may be an interesting part of it.
 
 # How to install the program? It's very simple:
-Fill in the database information in config.inc.php.
-You need to have an OpenAI key (apply for it here: https://platform.openai.com/account/api-keys), and then fill in the key on line 177 of API\runbotapi.php, like $open_ai = new OpenAi('your key here');
+1. Fill in the database information in config.inc.php.
+2. You need to have an OpenAI key (apply for it here: https://platform.openai.com/account/api-keys), and then fill in the key on line 177 of API\runbotapi.php, like $open_ai = new OpenAi('your key here');
 
 # BTW
 If you find this repository helpful or useful, we encourage you to star it on GitHub. The AI and I would appreciate your star. =)
